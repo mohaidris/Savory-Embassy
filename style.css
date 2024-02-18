@@ -1,0 +1,274 @@
+.header2container h1{
+    text-align: center;
+    text-decoration: wavy;
+    text-shadow: 10px;
+    color: #d3b50e;
+    
+}
+.header2containerflexbox{
+    display:flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+.header2containerflexbox .header2cont {
+    padding-top: 50px;
+
+}
+.header2containerflexbox .header2cont h1{
+    
+        font-family: "Protest Revolution", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+         
+}
+.header2containerflexbox .header2cont p{
+    
+        font-family: "Rubik Marker Hatch", system-ui;
+        font-weight: 400;
+        font-style: normal;
+      
+      
+}
+.header2containerflexbox .header2cont li{
+    padding-top: 30px;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing : auto;
+    font-weight:500;
+    font-style:normal;
+
+}
+.upperbodycontflexbox{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-top: 20px;
+}
+.upperbodycontflexbox h3{
+     font-family: "Rubik Marker Hatch", system-ui;
+        font-weight: 400;
+        font-style: normal;
+}
+.upperbodycontflexbox p{
+    
+        font-family: "Gloria Hallelujah", cursive;
+        font-weight: 400;
+        font-style: normal;
+    
+      
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+  .row .column p{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing : auto;
+    font-weight:500;
+    font-style:normal;
+
+    
+  }
+  .dropdown {
+    display: inline-block;
+    position: relative;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown-content a {
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+  }
+  .dropdown-content a:hover {
+    color: #FFFFFF;
+    background-color: #00A4BD;
+  }
+  .dropdown button{
+    border: none;
+    text-align: initial;
+    align-items:first baseline;
+    padding-top: 2px;
+  }
+  .flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px;
+  }
+  
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  .flip-box-back {
+    background-color: #555;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  .menubody1flexbody{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  } 
+.menubody1flexbody  .maincourseimg .p-2{
+    display:flex;
+    
+
+}
+.maincoursemenu{
+    display: flex;
+    flex: 24%;
+    padding: 5%;
+}
+.p-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 25%;
+    padding: 5%;
+}
+.maincoursemenu .p-2 p{
+    font-family: "Rubik Marker Hatch", system-ui;
+        font-weight: 400;
+        font-style: normal; 
+}
+.fish{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.potato{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.vegan{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.chicken{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.icecream{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cookies{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pie{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.pudding{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.coffee{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.freshjuice{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.liquor{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.milkshake{
+    padding-top: 20px;
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.flexbox{
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+button {
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgb(10, 119, 13);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+.google-map {
+  padding-bottom: 50%;
+  position: relative;
+}
+
+.google-map iframe {
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+}

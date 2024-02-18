@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Protest+Revolution&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Honk&family=Protest+Revolution&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Honk&family=Protest+Revolution&family=Rubik+Marker+Hatch&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Gloria+Hallelujah&family=Honk&family=Protest+Revolution&family=Rubik+Marker+Hatch&display=swap"
+        rel="stylesheet">
+
+    <title>Savory-Embassy</title>
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="index.html">Savory-Embassy</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="offers.html">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button>MENU</button>
+                            <div class="dropdown-content">
+                                <a href="maincourse.html">Main Course</a>
+                                <a href="appetizers.html">Desserts</a>
+                                <a href="beverages.html">Beverages</a>
+                            </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="signup.html" role="button">Sign Up</a>
+
+                    </li>
+
+
+
+
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="bodyflow">
+            <div class="header2containerflexbox">
+                <div class="header2cont">
+                    <h1>Savory Embassy</h1>
+                    <p>Tasty & Nutritious</p>
+                    <ul>
+                        <li>Hungry?Got you covered</li>
+                        <li>Tables are set & ready to serve</li>
+                        <li>Discover a world of flavors<br>One bite at a Time</li>
+                    </ul>
+                </div>
+                <div class="imagecont1">
+                    <img src="images/alex-munsell-Yr4n8O_3UPc-unsplash.jpg" alt="image of meat" style width="800px"
+                        height="350px
+              ">
+                </div>
+            </div>
+
+            <div class="maincoursemenu">
+                <div class="p-2">
+                    <form onsubmit="return handleData()" method="post" action="https://postman-echo.com/post">
+                        <p>MainCourse Menu</p>
+                        <ul>
+                            <li>
+                                <div class="fish">
+                                    <input type="checkbox" name="langs" id="honeyfish" value="Honey Garlic Fish">
+                                    <label for="honeyfish">
+                                        <p>Honey Garlic
+                                            Fish</p><br>served with Rice / Ugali<br>price:1500
+                                    </label>
+                                    <img src="images/sam-moghadam-khamseh-EaAhF9CZcsY-unsplash.jpg"
+                                        class="img-thumbnail" alt="...">
+                                </div>
+                            </li>
+                            <li>
+
+                                <div class="potato">
+                                    <input type="checkbox" name="langs" id="potatocurry" value="Potato Curry">
+                                    <label for="potatocurry">
+                                        <p>Potato Curry</p><br>served with Rice / Chapati<br>price:1000
+                                    </label>
+                                    <img src="images/dr-muhammad-amer-SE-U18vg5Hw-unsplash.jpg" class="img-thumbnail"
+                                        alt="...">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="chicken">
+                                    <input type="checkbox" name="langs" id="chickenfry" value="Chicken Fry">
+                                    <label for="chickenfry">
+                                        <p>Stir Fry Chicken</p><br>served with Rice / Chapati /
+                                        Ugali<br>price:1500
+                                    </label>
+                                    <img src="images/farhad-ibrahimzade-KpOl9jV2aJM-unsplash.jpg" class="img-thumbnail"
+                                        alt="...">
+                                </div>
+                            </li>
+                            <div class="vegan">
+                                <input type="checkbox" name="langs" id="vegan noodles" value="Vegan Thai Noodles">
+                                <label for="vegan noodles">
+                                    <p>Vegan Thai</p>
+                                    Noodles<br>served with stew<br>price:800
+                                </label>
+                                <img src="images/timothy-dykes-V82GYnR98lY-unsplash.jpg" class="img-thumbnail"
+                                    alt="img">
+
+                </div>
+                </li>
+                </ul>
+                <div>
+                    <input type="submit" name="Order" value="Order" />
+                </div>
+
+                <footer>
+                    <div class="card">
+                        <div class="card-header">
+                            Savory Embassy
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Tasty & Nutritious</h5>
+                            <p class="card-text">Experience life with great food..</p>
+                            <a href="contact.html" class="btn btn-primary">Contact Us</a>
+                        </div>
+                    </div>
+                </footer>
+            </div>
+
+
+
+</body>
+
+</html>
